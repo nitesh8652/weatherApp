@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+.card {
+    height: 76vh;
+    width: 35%;
+    background-color: #1E3032;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+
+    margin: 75px 0px 0px 0px;
+
+}
+
+.searchbox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+.searchbox input {
+    width: 60%;
+    height: 54px;
+    outline: 0;
+    border-radius: 30px;
+    background: #D8D83D;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    border-style: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #4d4c4cc7;
+   
+}
+
+.seachbuttn {
+    height: 54px;
+    border-radius: 50%;
+    width: 54px;
+    background-color: #D8D83D;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seachbuttn img{
+    height: 37px;
+    width: 33px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
