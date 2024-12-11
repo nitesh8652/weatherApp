@@ -12,23 +12,42 @@
 
     <div class="card">
         <div class="searchbox">
-            <input type="text" placeholder="enter city name">
-            <div class="search"></div>
-            <div class="seachbuttn">
-                <img src="images/search.png" alt="">
+            <input type="text" placeholder="enter city name" class="search">
+            <!-- <div class="search"></div> -->
+            <div class="searchbuttn">
+                <img src="images/search.png" alt="image" class="weatherimg">
             </div>
+            
         </div>
-        <div class="details">
+
+
+        <div class="indicator">
             <img src="images/rain.png" alt="rain" class="icon">
-            <h3 class="temp">22°C</h3>
-            <h3 class="city">NewYork</h3>
+            <h3 class="temp">--</h3>
+            <h3 class="city">City</h3>
+        </div>
+
+        <div class="weee">
             <div class="pressure">
                 <img src="images/wind.png" alt="">
-                <p class="wind">25 km/h</p>
-                <p class="speed">Wind Speed</p>
+                <div class="windtxt">
+                    <p class="upperwind">-- km/h</p>
+                    <p class="lowerwind">Wind Speed</p>
+                </div>
             </div>
+            <div class="detail">
+                <img src="images/humidity.png   " alt="">
+                <div class="humiditytxt">
+                    <p class="upperhumidity">--</p>
+                    <p class="lower">Humidity</p>
+                </div>
+            </div>
+
         </div>
+
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,27 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     background-color: black;
     display: grid;
     place-items: center;
 }
 
-
-
-
 .card {
-    height: 76vh;
-    width: 35%;
-    background-color: #1E3032;
+    height: 82vh;
+    width: 32%;
+    background-color: #221800;
     border-radius: 8px;
     font-family: "Poppins", sans-serif;
-
-    margin: 75px 0px 0px 0px;
+    margin: 55px 0px 0px 0px;
 
 }
 
@@ -32,8 +23,8 @@ body {
 }
 
 .searchbox input {
-    width: 60%;
-    height: 54px;
+    width: 73%;
+    height: 45px;
     outline: 0;
     border-radius: 30px;
     background: #D8D83D;
@@ -42,14 +33,13 @@ body {
     border-style: none;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
-    color: #4d4c4cc7;
-   
+    color: #959962;
 }
 
-.seachbuttn {
-    height: 54px;
-    border-radius: 50%;
-    width: 54px;
+.searchbuttn {
+    height: 45px;
+    border-radius: 25%;
+    width: 45px;
     background-color: #D8D83D;
     margin: 5px 0px 0px 0px;
     display: flex;
@@ -57,14 +47,66 @@ body {
     justify-content: center;
 }
 
-.seachbuttn img{
-    height: 37px;
-    width: 33px;
+.searchbuttn img{
+    height: 32px;
+    width: 27px;
 }
 
-.details{
+.indicator{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.weee{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #D8D83D; */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.weee img{
+    height: 50px;
+    width: 50px;
+}
+
+.windtxt{
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.humiditytxt{
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.pressure{
+    display: flex;
+    gap: 12px;
+}
+
+.detail{
+    gap: 12px;
+    display: flex;
+}
+
+.temp{
+    font-size: 45px;
+}
+.lowerwind{
+    font-size: 25px;
+}
+.lower{
+    font-size: 25px;
+}
+
+.city{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #cfded6;
 }
