@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: black;
     display: grid;
     place-items: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    color: #cfded6;
+}
+
 .card {
     height: 82vh;
-    width: 32%;
+    width: 40%;
     background-color: #221800;
     border-radius: 8px;
     font-family: "Poppins", sans-serif;
@@ -47,19 +54,19 @@ body {
     justify-content: center;
 }
 
-.searchbuttn img{
+.searchbuttn img {
     height: 32px;
     width: 27px;
 }
 
-.indicator{
+.indicator {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.weee{
+.weee {
     display: flex;
     justify-content: space-between;
     /* background-color: #D8D83D; */
@@ -68,45 +75,105 @@ body {
     margin-top: 33px;
 }
 
-.weee img{
+.weee img {
     height: 50px;
     width: 50px;
 }
 
-.windtxt{
+.windtxt {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
 
-.humiditytxt{
+.humiditytxt {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 
 }
 
-.pressure{
+.pressure {
     display: flex;
     gap: 12px;
 }
 
-.detail{
+.detail {
     gap: 12px;
     display: flex;
 }
 
-.temp{
+.temp {
     font-size: 45px;
-}
-.lowerwind{
-    font-size: 25px;
-}
-.lower{
-    font-size: 25px;
+    /* margin-top: -16px; */
 }
 
-.city{
+.lowerwind {
+    font-size: 22px;
+}
+
+.lower {
+    font-size: 22px;
+}
+
+.city {
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
+    /* margin-top: -54px; */
     color: #cfded6;
+}
+
+.indicator img {
+    border-radius: 8px;
+    margin-top: 37px;
+    width: 150px;
+    height: 150px;
+}
+
+
+@media (2px <=width <=1018px) {
+    * {
+        color: gold;
+    }
+
+    .searchbox input {
+        width: 45%;
+    }
+
+    .temp {
+        font-size: 35px;
+    }
+    
+    .city {
+
+        font-size: 35px;
+    }
+
+    .lowerwind {
+        font-size: 15px;
+    }
+    .lower {
+        font-size: 15px;
+    }
+}
+
+@media (2px <=width <=808px) {
+
+    .card {
+        height: 82vh;
+        width: 94%;
+    }    
+    .weee img {
+        height: 35px;
+        width: 35px;
+    }
+    .lowerwind {
+        font-size: 12px;
+    }
+    .lower {
+        font-size: 12px;
+    }
+    .searchbox input {
+        width: 75%;
+    }
+
 }
